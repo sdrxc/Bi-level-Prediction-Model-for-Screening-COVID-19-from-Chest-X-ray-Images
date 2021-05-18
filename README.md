@@ -13,3 +13,6 @@
 4. Instituto Sistemas Complejos de Ingeniería (ISCI), Santiago, Chile
 
 5. Department of Computer Science and Engineering, Jadavpur University, Kolkata, India
+
+![](Flow%20chart.jpg)
+
