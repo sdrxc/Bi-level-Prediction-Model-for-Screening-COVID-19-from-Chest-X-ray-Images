@@ -1,5 +1,7 @@
 # Bi-level-Prediction-Model-for-Screening-COVID-19-from-Chest-X-ray-Images
 
+Published at: Big Data Research (Elsevier)
+
 [Link to the paper](https://www.sciencedirect.com/science/article/pii/S2214579621000502)
 
 ## Authors: Soham Das, Soumya Deep Roy, Samir Malakar, Juan D.Velásquez, Ram Sarkar
