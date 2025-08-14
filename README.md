@@ -9,7 +9,14 @@
 
 ##  Abstract
 
-The ongoing pandemic due to coronavirus disease, commonly abbreviated as COVID-19, has unleashed a major health crisis across the world. Although multiple vaccines have emerged, large scale vaccination have proven to be a major challenge, especially in developing nations. As a result, early detection still remains a crucial aspect of containing the spread of the virus. The popularly used test for COVID-19 is limited by the availability of test kits and is time-consuming. This has prompted researchers to use chest x-ray (CXR) and chest tomography (CT) scan images of subjects to predict COVID. Many COVID-19 patients also suffer from viral Pneumonia caused by SARS-CoV2 virus. Hence, distinguishing between bacterial and non-COVID Pneumonia is of paramount importance for proper diagnosis of the patients. To this end, in the present work, we have developed a bi-level prediction model of the subjects into normal, Pneumonia and COVID-19 patients by using a shallow learner based classifier on features extracted by VGG19 from the CXR images. The model is used on 3168 images distributed among normal, Pneumonia and COVID classes. We have created a dataset by collating CXR images from various sources like SIRM COVID-19 Database, Chest Imaging (Twitter), COVID-chestxray-dataset and Chest X-Ray Images. The experimental results confirm the superiority of the proposed model (99.26% accuracy) over the best performing single-level classification method (96.74% accuracy). This result is also at par with the many state-of-the-art methods mentioned in literature.
+We present a novel **bi-level classification model** for distinguishing between **Normal**, **Pneumonia**, and **COVID-19** patients using chest X-ray (CXR) images. Our approach consists of:
+
+1. **Level-1:** Classify subjects as *Normal* or *Infected (Pneumonia + COVID-19)*.  
+2. **Level-2:** For *Infected* cases, further differentiate between *Pneumonia* and *COVID-19*.
+
+Deep features are extracted using **VGG19**, followed by **shallow learner classifiers** (Logistic Regression, k-NN, CART, Random Forest, XGBoost).  
+The model is evaluated on a **balanced dataset of 3,168 CXR images** and achieves **99.26% accuracy**, outperforming single-level classification (96.74% accuracy).
+
 ---
 
 ##  Repository Structure
