@@ -27,3 +27,5 @@ The model is evaluated on a **balanced dataset of 3,168 CXR images** and achieve
 ├── Testing_covidxc.ipynb # Testing pipeline for COVID-positive classification
 ├── Testing_lv2_covidxc.ipynb # Second-level classification notebook (Pneumonia vs COVID)
 └── README.md # This documentation file
+
+<img width="528" height="857" alt="Screenshot 2025-08-17 at 3 33 32 AM" src="https://github.com/user-attachments/assets/7ab8332d-a86c-4cd4-bfe3-429507b1a36a" />
